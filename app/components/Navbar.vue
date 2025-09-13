@@ -35,6 +35,12 @@ const route = useRoute();
             <li>
                 <NuxtLink to="/customer?search=Nuxt 4">Customer</NuxtLink>
             </li>
+            <li>
+                <NuxtLink to="/customerPut">Customer Put</NuxtLink>
+            </li>
+            <li>
+                <NuxtLink to="/customerDelete">Customer Delete</NuxtLink>
+            </li>
         </ul>
         <p>Current Route: {{ $route.path }}</p>
     </div>
